@@ -17,7 +17,7 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 
 A utilização do Laravel na versões acima é obrigatória.
 
-# Objettivo 
+# Objetivo 
 
 Temos 2 tipos de usuários, os comuns e lojistas, ambos têm carteira com dinheiro e realizam transferências entre eles. Vamos nos atentar somente ao fluxo de transferência entre dois usuários.
 
@@ -30,8 +30,6 @@ Requisitos:
  * Usuários podem enviar dinheiro (efetuar transferência) para lojistas e entre usuários.
 
  * Lojistas só recebem transferências, não enviam dinheiro para ninguém.
-
- * Validar se o usuário tem saldo antes da transferência.
 
  * A operação de transferência deve ser uma transação (ou seja, revertida em qualquer caso de inconsistência) e o dinheiro deve voltar para a carteira do usuário que   envia.
 
