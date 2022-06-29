@@ -13,6 +13,7 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
  # Setup do projeto
   * PHP : 8.1
   * Laravel : 9.x
+  * PostgreSQL: 13
 
 A utilização do Laravel na versões acima é obrigatória.
 
