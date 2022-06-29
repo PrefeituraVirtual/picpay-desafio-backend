@@ -17,6 +17,26 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 
 A utilização do Laravel na versões acima é obrigatória.
 
+# Objettivo 
+
+Temos 2 tipos de usuários, os comuns e lojistas, ambos têm carteira com dinheiro e realizam transferências entre eles. Vamos nos atentar somente ao fluxo de transferência entre dois usuários.
+
+Requisitos:
+
+ * Para ambos tipos de usuário, precisamos do Nome Completo, CPF, e-mail e Senha. CPF/CNPJ e e-mails devem ser únicos no sistema. Sendo assim, seu sistema deve permitir apenas um cadastro com o mesmo CPF ou endereço de e-mail.
+
+ * Usuários comuns podem realizar depósitos.
+ 
+ * Usuários podem enviar dinheiro (efetuar transferência) para lojistas e entre usuários.
+
+ * Lojistas só recebem transferências, não enviam dinheiro para ninguém.
+
+ * Validar se o usuário tem saldo antes da transferência.
+
+ * A operação de transferência deve ser uma transação (ou seja, revertida em qualquer caso de inconsistência) e o dinheiro deve voltar para a carteira do usuário que   envia.
+
+ * Este serviço deve ser RESTFul.
+
 # Orientações 
 
  * Faça commits regulares. Eles são melhores do que um commit gigantesco. Gostaríamos de ver commits organizados e padronizados, então capriche neles!
