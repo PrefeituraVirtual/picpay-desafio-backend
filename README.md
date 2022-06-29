@@ -36,7 +36,7 @@ Requisitos:
  * Este serviço deve ser RESTFul.
 
 # Orientações 
-
+ * Iremos avaliar cada feature, conceito, pattern, tudo o que você fizer de adicional. Tudo além do proposta contará pontos!
  * Faça commits regulares. Eles são melhores do que um commit gigantesco. Gostaríamos de ver commits organizados e padronizados, então capriche neles!
  * Documentação
  * Código limpo e organizado (nomenclatura, etc)
