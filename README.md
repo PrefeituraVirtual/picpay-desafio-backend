@@ -1,2 +1,2 @@
-# picpay-desafio-backend
+# prefeitura-virtual-desafio-backend
 Desafio Back-End Prefeitura Virtual
