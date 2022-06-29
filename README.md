@@ -16,6 +16,23 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 
 A utilização do Laravel na versões acima é obrigatória.
 
+# Orientações 
+
+ * Faça commits regulares. Eles são melhores do que um commit gigantesco. Gostaríamos de ver commits organizados e padronizados, então capriche neles!
+ * Documentação
+ * Código limpo e organizado (nomenclatura, etc)
+ * Conhecimento de padrões (PSRs, design patterns, SOLID)
+ * Ser consistente e saber argumentar suas escolhas
+ * Apresentar soluções que domina
+ * Modelagem de Dados
+ * Manutenibilidade do Código
+ * Tratamento de erros
+ * Cuidado com itens de segurança
+ * Arquitetura (estruturar o pensamento antes de escrever)
+ * Carinho em desacoplar componentes (outras camadas, service, repository)
+
+De acordo com os critérios acima, iremos avaliar seu teste para avançarmos para a entrevista técnica. Caso não tenha atingido aceitavelmente o que estamos propondo acima, não iremos prosseguir com o processo.
+ 
 # Materiais úteis
   * https://refactoring.guru/refactoring
   * http://br.phptherightway.com/
